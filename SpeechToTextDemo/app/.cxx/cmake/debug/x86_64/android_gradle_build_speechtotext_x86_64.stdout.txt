@@ -1,0 +1,40 @@
+ninja: Entering directory `/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/.cxx/cmake/debug/x86_64'
+[1/9] Building CXX object CMakeFiles/speechtotext.dir/src/MatrixCSV.cpp.o
+[2/9] Building CXX object CMakeFiles/speechtotext.dir/src/WordBeamSearch.cpp.o
+[3/9] Building CXX object CMakeFiles/speechtotext.dir/src/Beam.cpp.o
+/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/Beam.cpp:42:7: warning: 'random_shuffle<std::__wrap_iter<std::vector<unsigned int> *>>' is deprecated [-Wdeprecated-declarations]
+        std::random_shuffle(nextWords.begin(), nextWords.end());
+             ^
+/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/algorithm:3095:1: note: 'random_shuffle<std::__wrap_iter<std::vector<unsigned int> *>>' has been explicitly marked deprecated here
+_LIBCPP_DEPRECATED_IN_CXX14 void
+^
+/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:995:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX14'
+#  define _LIBCPP_DEPRECATED_IN_CXX14 _LIBCPP_DEPRECATED
+                                      ^
+/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:978:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+1 warning generated.
+[4/9] Building CXX object CMakeFiles/speechtotext.dir/src/Metrics.cpp.o
+[5/9] Building CXX object CMakeFiles/speechtotext.dir/src/DataLoader.cpp.o
+/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/DataLoader.cpp:47:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+1 warning generated.
+[6/9] Building CXX object CMakeFiles/speechtotext.dir/speechtotext.cpp.o
+/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/speechtotext.cpp:18:61: warning: data argument not used by format string [-Wformat-extra-args]
+    __android_log_print(ANDROID_LOG_DEBUG, APPNAME, "time1","1");
+                                                    ~~~~~~~ ^
+/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/speechtotext.cpp:40:61: warning: data argument not used by format string [-Wformat-extra-args]
+    __android_log_print(ANDROID_LOG_DEBUG, APPNAME, "time2","2");
+                                                    ~~~~~~~ ^
+/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/speechtotext.cpp:13603:61: warning: data argument not used by format string [-Wformat-extra-args]
+    __android_log_print(ANDROID_LOG_DEBUG, APPNAME, "time3","3");
+                                                    ~~~~~~~ ^
+/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/speechtotext.cpp:13612:61: warning: data argument not used by format string [-Wformat-extra-args]
+    __android_log_print(ANDROID_LOG_DEBUG, APPNAME, "time4","4");
+                                                    ~~~~~~~ ^
+4 warnings generated.
+[7/9] Building CXX object CMakeFiles/speechtotext.dir/src/PrefixTree.cpp.o
+[8/9] Building CXX object CMakeFiles/speechtotext.dir/src/LanguageModel.cpp.o
+[9/9] Linking CXX shared library /home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/build/intermediates/cmake/debug/obj/x86_64/libspeechtotext.so

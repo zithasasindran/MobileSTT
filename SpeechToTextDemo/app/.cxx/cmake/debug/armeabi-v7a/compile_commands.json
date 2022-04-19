@@ -1,0 +1,49 @@
+[
+{
+  "directory": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dspeechtotext_EXPORTS -I/src -I/src/bentham  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC   -o CMakeFiles/speechtotext.dir/speechtotext.cpp.o -c /home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/speechtotext.cpp",
+  "file": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/speechtotext.cpp"
+},
+
+{
+  "directory": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dspeechtotext_EXPORTS -I/src -I/src/bentham  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC   -o CMakeFiles/speechtotext.dir/src/DataLoader.cpp.o -c /home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/DataLoader.cpp",
+  "file": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/DataLoader.cpp"
+},
+
+{
+  "directory": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dspeechtotext_EXPORTS -I/src -I/src/bentham  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC   -o CMakeFiles/speechtotext.dir/src/Metrics.cpp.o -c /home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/Metrics.cpp",
+  "file": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/Metrics.cpp"
+},
+
+{
+  "directory": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dspeechtotext_EXPORTS -I/src -I/src/bentham  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC   -o CMakeFiles/speechtotext.dir/src/MatrixCSV.cpp.o -c /home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/MatrixCSV.cpp",
+  "file": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/MatrixCSV.cpp"
+},
+
+{
+  "directory": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dspeechtotext_EXPORTS -I/src -I/src/bentham  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC   -o CMakeFiles/speechtotext.dir/src/Beam.cpp.o -c /home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/Beam.cpp",
+  "file": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/Beam.cpp"
+},
+
+{
+  "directory": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dspeechtotext_EXPORTS -I/src -I/src/bentham  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC   -o CMakeFiles/speechtotext.dir/src/WordBeamSearch.cpp.o -c /home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/WordBeamSearch.cpp",
+  "file": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/WordBeamSearch.cpp"
+},
+
+{
+  "directory": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dspeechtotext_EXPORTS -I/src -I/src/bentham  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC   -o CMakeFiles/speechtotext.dir/src/LanguageModel.cpp.o -c /home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/LanguageModel.cpp",
+  "file": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/LanguageModel.cpp"
+},
+
+{
+  "directory": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dspeechtotext_EXPORTS -I/src -I/src/bentham  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC   -o CMakeFiles/speechtotext.dir/src/PrefixTree.cpp.o -c /home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/PrefixTree.cpp",
+  "file": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/PrefixTree.cpp"
+}
+]

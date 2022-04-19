@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/appLogoImageView"
+            android:layout_width="@dimen/activity_about_logo_width"
+            android:layout_height="@dimen/activity_about_logo_height"
+            android:layout_marginTop="@dimen/activity_about_logo_margin_top"
+            android:layout_marginBottom="@dimen/activity_about_logo_margin_bottom"
+            android:src="@drawable/ic_chat_bubble_black_24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/appDescriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_about_content_text_padding"
+            android:text="@string/app_description_text_view"
+            android:textColor="@color/grey_800"
+            android:textSize="@dimen/activity_about_content_text_size"
+            android:textStyle="normal"
+            app:layout_constraintTop_toBottomOf="@+id/appLogoImageView" />
+
+        <View
+            android:id="@+id/viewLine1"
+            style="@style/ViewLine"
+            android:layout_width="match_parent"
+            app:layout_constraintTop_toBottomOf="@+id/appDescriptionTextView" />
+
+        <TextView
+            android:id="@+id/appVersionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_about_content_text_padding"
+            android:text="@string/app_version"
+            android:textColor="@color/grey_800"
+            android:textSize="@dimen/activity_about_content_text_size"
+            android:textStyle="normal"
+            app:layout_constraintTop_toBottomOf="@+id/viewLine1" />
+
+        <View
+            android:id="@+id/viewLine2"
+            style="@style/ViewLine"
+            android:layout_width="match_parent"
+            app:layout_constraintTop_toBottomOf="@+id/appVersionTextView" />
+
+        <TextView
+            android:id="@+id/collaborationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_about_content_text_padding"
+            android:text="@string/collaboration_text_view"
+            android:textColor="@color/teal_600"
+            android:textSize="@dimen/activity_about_content_text_size"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/viewLine2" />
+
+        <ImageView
+            android:id="@+id/iiscLogoImageView"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/activity_about_collaboration_logo_width_height"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/logo_iisc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/boeingLogoImageView"
+            app:layout_constraintTop_toBottomOf="@+id/collaborationTextView" />
+
+        <ImageView
+            android:id="@+id/boeingLogoImageView"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/activity_about_collaboration_logo_width_height"
+            android:src="@drawable/logo_boeing"
+            app:layout_constraintEnd_toStartOf="@+id/iiscLogoImageView"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/collaborationTextView" />
+
+        <TextView
+            android:id="@+id/moreInfoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_about_content_text_padding"
+            android:text="@string/more_info_text_view"
+            android:textColor="@color/teal_600"
+            android:textSize="@dimen/activity_about_content_text_size"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/boeingLogoImageView" />
+
+        <TextView
+            android:id="@+id/webLinkTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_web_blue_24dp"
+            android:drawablePadding="@dimen/activity_about_content_drawable_padding"
+            android:padding="@dimen/activity_about_content_text_padding"
+            android:text="@string/web_url"
+            android:textColor="@color/grey_800"
+            android:textSize="@dimen/activity_about_content_text_size"
+            android:textStyle="normal"
+            app:layout_constraintTop_toBottomOf="@+id/moreInfoTextView" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_about_dummy_view_height"
+            app:layout_constraintTop_toBottomOf="@id/webLinkTextView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

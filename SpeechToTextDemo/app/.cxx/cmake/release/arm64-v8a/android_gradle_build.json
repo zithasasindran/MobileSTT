@@ -1,0 +1,80 @@
+{
+  "stringTable": {
+    "0": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/.cxx/cmake/release/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dspeechtotext_EXPORTS -I/src -I/src/bentham -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/CMakeLists.txt",
+    "/home/a-iot/Android/Sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
+    "/home/a-iot/Android/Sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake",
+    "/home/a-iot/Android/Sdk/ndk/23.1.7779620/build/cmake/platforms.cmake",
+    "/home/a-iot/Android/Sdk/ndk/23.1.7779620/build/cmake/compiler_id.cmake"
+  ],
+  "cleanCommands": [
+    "/home/a-iot/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/.cxx/cmake/release/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/a-iot/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/.cxx/cmake/release/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "speechtotext-Release-arm64-v8a": {
+      "buildCommand": "/home/a-iot/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/.cxx/cmake/release/arm64-v8a\" speechtotext",
+      "buildType": "release",
+      "toolchain": "39469935",
+      "abi": "arm64-v8a",
+      "artifactName": "speechtotext",
+      "files": [
+        {
+          "src": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/speechtotext.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/DataLoader.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/Metrics.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/MatrixCSV.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/Beam.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/WordBeamSearch.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/LanguageModel.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/src/PrefixTree.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/build/intermediates/cmake/release/obj/arm64-v8a/libspeechtotext.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "39469935": {
+      "cppCompilerExecutable": "/home/a-iot/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

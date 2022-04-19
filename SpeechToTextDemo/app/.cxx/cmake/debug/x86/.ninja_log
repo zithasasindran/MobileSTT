@@ -1,0 +1,11 @@
+# ninja log v5
+0	2	0	clean	2c7b7d8234b967cd
+10	776	1650258289	CMakeFiles/speechtotext.dir/src/MatrixCSV.cpp.o	904c1435225495d2
+10	900	1650258289	CMakeFiles/speechtotext.dir/src/Metrics.cpp.o	30da8f3b905330cd
+10	1041	1650258289	CMakeFiles/speechtotext.dir/src/WordBeamSearch.cpp.o	22ce334899e08c39
+10	1180	1650258290	CMakeFiles/speechtotext.dir/src/DataLoader.cpp.o	120394a4cfa23147
+10	1283	1650258290	CMakeFiles/speechtotext.dir/speechtotext.cpp.o	7dba776732bede9a
+10	1393	1650258290	CMakeFiles/speechtotext.dir/src/Beam.cpp.o	b7d8f0db70849d07
+900	1805	1650258290	CMakeFiles/speechtotext.dir/src/PrefixTree.cpp.o	15374569e025794c
+777	1908	1650258290	CMakeFiles/speechtotext.dir/src/LanguageModel.cpp.o	588b33397b1c2287
+1908	2253	1650258291	/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/build/intermediates/cmake/debug/obj/x86/libspeechtotext.so	1ffd814a42d9f2ea

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/speechHistoryRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/grey_200"
+        android:paddingBottom="@dimen/content_main_record_fab_margin"
+        app:layout_constraintBottom_toTopOf="@+id/realTimeText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch1" />
+
+    <in.ac.iisc.dese.aircraft.mvp.onDeviceTraining.screens.speechToText.animation.PulsatorLayout
+        android:id="@+id/pulsator"
+        android:layout_width="0dp"
+        android:layout_height="106dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:pulse_color="@color/colorAccent"
+        app:pulse_count="5"
+        app:pulse_duration="3000"
+        app:pulse_interpolator="Accelerate"
+        app:pulse_repeat="0"
+        app:pulse_startFromScratch="true" />
+
+    <TextView
+        android:id="@+id/noDataFoundTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/no_data_found_text_view"
+        android:textAppearance="@android:style/TextAppearance.Material.Title"
+        android:textColor="@color/grey_500"
+        android:textStyle="normal"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/speechHistoryRecyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch1" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/deleteFloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/content_main_fab_margin_bottom"
+        android:elevation="2dp"
+        android:padding="@dimen/content_main_delete_share_fab_padding"
+        android:src="@drawable/ic_delete_outline_black_24dp"
+        app:backgroundTint="@color/grey_200"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/recordFloatingActionButton"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/recordFloatingActionButton"
+        style="@style/MicFabStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/content_main_record_fab_margin"
+        android:src="@drawable/ic_mic_white_24dp"
+        android:tag="stop"
+        app:backgroundTint="@color/cyan_300"
+        app:fabCustomSize="@dimen/content_main_record_fab_custom_size"
+        app:layout_constraintBottom_toBottomOf="@+id/deleteFloatingActionButton"
+        app:layout_constraintEnd_toStartOf="@+id/tempTrain"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/deleteFloatingActionButton"
+        app:layout_constraintTop_toTopOf="@+id/deleteFloatingActionButton" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/tempTrain"
+        style="@style/Delete.Share.FabStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:padding="@dimen/content_main_delete_share_fab_padding"
+        android:src="@drawable/training"
+        app:backgroundTint="@color/grey_200"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/recordFloatingActionButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/recordFloatingActionButton"
+        app:layout_constraintTop_toTopOf="@+id/recordFloatingActionButton" />
+
+    <TextView
+        android:id="@+id/realTimeText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/pulsator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inference"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

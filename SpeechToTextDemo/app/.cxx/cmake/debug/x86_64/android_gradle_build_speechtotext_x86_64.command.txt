@@ -1,0 +1,7 @@
+Executable : /home/a-iot/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/.cxx/cmake/debug/x86_64
+speechtotext
+jvmArgs : 
+

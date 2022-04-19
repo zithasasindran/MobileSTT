@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false">
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:paddingTop="@dimen/list_item_view_date_padding_top"
+        android:paddingBottom="@dimen/list_item_view_date_padding_bottom"
+        android:text="14 Oct 19"
+        android:textColor="@color/blue_600"
+        android:textSize="@dimen/list_item_view_date_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateTextView"
+        android:layout_marginStart="@dimen/list_item_view_voice_over_image_margin_start"
+        android:layout_marginTop="@dimen/list_item_view_voice_over_image_margin_top"
+        android:background="@drawable/round"
+        android:elevation="2dp"
+        android:padding="@dimen/list_item_view_voice_over_image_padding"
+        android:scaleType="center"
+        android:src="@drawable/ic_record_voice_over_black_24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateTextView" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateTextView"
+        android:layout_marginStart="@dimen/list_item_view_relative_layout_margin_start"
+        android:layout_marginTop="@dimen/list_item_view_relative_layout_margin_top"
+        android:layout_marginEnd="@dimen/list_item_view_relative_layout_margin_end"
+        android:layout_marginBottom="@dimen/list_item_view_relative_layout_margin_bottom"
+        android:background="@drawable/speech_bubble"
+        android:elevation="2dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/dateTextView">
+
+        <TextView
+            android:id="@+id/speechTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/list_item_view_text_padding_start"
+            android:paddingTop="@dimen/list_item_view_text_padding_top"
+            android:paddingEnd="@dimen/list_item_view_text_padding_end"
+            android:paddingBottom="@dimen/list_item_view_text_padding_bottom"
+            android:text="Good morning! People. aaaaaaaaa aaaaaa aaaaa aaaaa aaaaaaaaaaaaa"
+            android:textColor="@color/black"
+            android:textSize="@dimen/list_item_view_text_size" />
+
+        <TextView
+            android:id="@+id/SNRView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/list_item_view_text_padding_start"
+            android:paddingTop="@dimen/list_item_view_text_padding_top"
+            android:paddingEnd="@dimen/list_item_view_text_padding_end"
+            android:paddingBottom="@dimen/list_item_view_text_padding_bottom"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/list_item_view_text_size"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/ResultView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/list_item_view_text_padding_start"
+            android:paddingTop="@dimen/list_item_view_text_padding_top"
+            android:paddingEnd="@dimen/list_item_view_text_padding_end"
+            android:paddingBottom="@dimen/list_item_view_text_padding_bottom"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/list_item_view_text_size"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/SpellCorrectResultView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/list_item_view_text_padding_start"
+            android:paddingTop="@dimen/list_item_view_text_padding_top"
+            android:paddingEnd="@dimen/list_item_view_text_padding_end"
+            android:paddingBottom="@dimen/list_item_view_text_padding_bottom"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/list_item_view_text_size"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:paddingStart="@dimen/list_item_view_time_padding_start"
+            android:paddingTop="@dimen/list_item_view_time_padding_top"
+            android:paddingEnd="@dimen/list_item_view_time_padding_end"
+            android:paddingBottom="@dimen/list_item_view_time_padding_bottom"
+            android:text="05:56 AM"
+            android:textColor="@color/grey_600"
+            android:textSize="@dimen/list_item_view_time_size" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_200">
+
+    <ImageView
+        android:id="@+id/appLogoImageView"
+        android:layout_width="@dimen/activity_app_logo_width_height"
+        android:layout_height="@dimen/activity_app_logo_width_height"
+        android:background="@drawable/round"
+        android:padding="16dp"
+        android:src="@drawable/ic_chat_bubble_black_24dp"
+        app:layout_constraintBottom_toTopOf="@+id/appCopyRightTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/appNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_app_logo_app_name_marginTop"
+        android:text="@string/app_name"
+        android:textColor="@color/cyan_900"
+        android:textSize="@dimen/activity_app_logo_app_name_text_size"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appLogoImageView" />
+
+    <TextView
+        android:id="@+id/appVersionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_app_logo_version_text_padding"
+        android:text="@string/app_version"
+        android:textColor="@color/cyan_900"
+        android:textSize="@dimen/activity_app_logo_version_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/appCopyRightTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_app_logo_copy_right_text_padding"
+        android:text="@string/app_copy_right_anrc"
+        android:textColor="@color/cyan_900"
+        android:textSize="@dimen/activity_app_logo_copy_right_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

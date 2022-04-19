@@ -1,0 +1,22 @@
+{
+  "buildFiles": [
+    "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/src/main/cpp/CMakeLists.txt",
+    "/home/a-iot/Android/Sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
+    "/home/a-iot/Android/Sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake",
+    "/home/a-iot/Android/Sdk/ndk/23.1.7779620/build/cmake/platforms.cmake",
+    "/home/a-iot/Android/Sdk/ndk/23.1.7779620/build/cmake/compiler_id.cmake"
+  ],
+  "cleanCommands": [
+    "/home/a-iot/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/.cxx/cmake/release/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/home/a-iot/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/.cxx/cmake/release/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "speechtotext-Release-armeabi-v7a": {
+      "artifactName": "speechtotext",
+      "buildCommand": "/home/a-iot/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/.cxx/cmake/release/armeabi-v7a\" speechtotext",
+      "abi": "armeabi-v7a",
+      "output": "/home/a-iot/Documents/OndeviceTraining_WER_SC/SpeechToTextDemo/app/build/intermediates/cmake/release/obj/armeabi-v7a/libspeechtotext.so",
+      "runtimeFiles": []
+    }
+  }
+}
